@@ -30,6 +30,6 @@ class Owner
   end
   
   def cats 
-    return @cats.all
+    Cat.all.count
   end
 end
