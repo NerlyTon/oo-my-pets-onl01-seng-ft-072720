@@ -67,6 +67,9 @@ class Owner
     cat.mood = "nervous" 
   end
 end
+
+  def list_pets
+    puts "I have #{cats.count} cats, and #{dogs.count}."
 end
 
 
