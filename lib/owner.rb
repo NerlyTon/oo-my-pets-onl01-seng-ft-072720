@@ -32,6 +32,6 @@ class Owner
   
   def cats 
     Cat.all.select.name
-    # binding.pry
+    binding.pry
   end
 end
