@@ -30,6 +30,6 @@ class Owner
   end
   
   def cats 
-    Cat.all.count
+    Cat.all.map
   end
 end
