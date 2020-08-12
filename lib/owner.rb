@@ -34,4 +34,6 @@ class Owner
     Cat.all.select {|c| c.owner == self }
     # binding.pry
   end
+  
+  def
 end
