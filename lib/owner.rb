@@ -70,6 +70,7 @@ end
 
   def list_pets
     puts "I have #{cats.count} cats, and #{dogs.count}."
+  end
 end
 
 
