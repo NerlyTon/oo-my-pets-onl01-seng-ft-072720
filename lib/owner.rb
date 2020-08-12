@@ -31,7 +31,7 @@ class Owner
   end
   
   def cats 
-    self.all.select
+    self.all.select {|c| c.owner }
     # binding.pry
   end
 end
